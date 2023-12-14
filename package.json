@@ -1,0 +1,30 @@
+{
+  "name": "typescript-decorators",
+  "version": "1.0.0",
+  "description": "Repository with example os Decorators in Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "constructor-validator-v1": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify src/constructor/constructor-validation-v1.ts",
+    "function-validator-v1": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify src/function/function-validation-v1.ts",
+    "function-validator-v2": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify src/function/function-validation-v2.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielleandro0801/typescript-decorators.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielleandro0801/typescript-decorators/issues"
+  },
+  "homepage": "https://github.com/gabrielleandro0801/typescript-decorators#readme",
+  "dependencies": {
+    "joi": "^17.11.0"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  }
+}
